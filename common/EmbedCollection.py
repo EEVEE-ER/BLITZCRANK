@@ -3,11 +3,11 @@ import discord
 
 class EmbedCollection: # 임베드 모음
 
-    class 내전모집Embed(discord.Embed): # 내전모집 임베드
+    class 내전모집임베드(discord.Embed): # 내전모집 임베드
         def __init__(self, participants : List[discord.User], owner : discord.User, 시작시간: str):
             super().__init__(
                 title="인간 시대의 끝이 도래했다-",
-                description="PILTOVER 내전을 시작합니다-",
+                description="RUNTERRA 내전을 시작합니다-",
                 color=discord.Color.blue()
             )
             self.add_field(
